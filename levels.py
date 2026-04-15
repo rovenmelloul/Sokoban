@@ -1,14 +1,5 @@
 # levels.py
 
-# Legend:
-# '#' = Wall (-1)
-# ' ' = Empty (0)
-# '.' = Goal (1)
-# '$' = Box (2)
-# '@' = Player (3)
-# '*' = Box on Goal (4)
-# '+' = Player on Goal (5)
-
 LEVELS = [
     [
         "  ###  ",

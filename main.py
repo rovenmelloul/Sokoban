@@ -99,8 +99,8 @@ btn_astar = Button(WIDTH - 140, 120, 120, 40, "IA: A*", SMALL_FONT, bg_color=(15
 # Boutons menu niveaux
 btn_levels = []
 for i in range(count_levels()):
-    x = 100 + (i % 4) * 150
-    y = 150 + (i // 4) * 100
+    x = 60 + (i % 5) * 140
+    y = 130 + (i // 5) * 80
     btn_levels.append((Button(x, y, 100, 50, f"Niv {i+1}", BASE_FONT), i))
 
 # Initialiser la BD

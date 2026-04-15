@@ -1,0 +1,13 @@
+Level,Algorithm,Time_Seconds,Iterations,Path_Length,Status
+1,BFS,0.005,137,10,Success
+1,DFS,0.0004,19,10,Success
+1,A*,0.01,134,10,Success
+2,BFS,0.8805,28805,17,Success
+2,DFS,2.0,101137,-1,Timeout/Failed
+2,A*,0.233,4494,17,Success
+3,BFS,0.029,989,22,Success
+3,DFS,0.0367,1564,54,Success
+3,A*,0.021,585,22,Success
+4,BFS,0.0102,572,33,Success
+4,DFS,0.0079,460,33,Success
+4,A*,0.0117,551,33,Success
